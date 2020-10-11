@@ -1,0 +1,18 @@
+#eureka-provide
+server:
+  port: 8011
+
+#注册到注册中心的名字,后续通过名字直接访问服务
+spring:
+  application:
+    name: provider
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    #是否将当前服务的IP注册到eureka Server
+    prefer-ip-address: true
+

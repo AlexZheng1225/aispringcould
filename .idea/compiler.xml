@@ -15,7 +15,9 @@
         <module name="nativeconfigclient" />
         <module name="nativeconfigserver" />
         <module name="comsumer" />
+        <module name="configserver" />
         <module name="eurekaserver" />
+        <module name="configclient" />
         <module name="eurekaclient" />
       </profile>
     </annotationProcessing>
@@ -24,6 +26,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="aispringcould" options="-parameters" />
       <module name="comsumer" options="-parameters" />
+      <module name="configclient" options="-parameters" />
+      <module name="configserver" options="-parameters" />
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="feign" options="-parameters" />
